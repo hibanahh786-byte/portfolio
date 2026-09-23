@@ -95,11 +95,11 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "BakeEase",
             description: "BakeEase is a comprehensive digital solution designed specifically for baking businesses and bakery management. It helps streamline orders, manage stock, and track sales, making it easier to run a bakery efficiently.",
             images: [
-                "images/bakeease-1.png",
-                "images/bakeease-2.png",
-                "images/bakeease-3.png",
                 "images/bakeease-4.png",
-                "images/bakeease-5.png"
+                "images/bakeease-3.png",
+                "images/bakeease-1.png",
+                "images/bakeease-5.png",
+                "images/bakeease-2.png"
             ],
             technologies: [
                 "Flutter",
