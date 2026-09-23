@@ -1235,3 +1235,32 @@ ul {
     right: 35px;
     font-size: 30px;
 }
+/* Put Hero text and photo side by side */
+.hero-content {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 0 0 350px;
+    margin-left: auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin: 30px auto 0;
+    }
+}
